@@ -14,7 +14,7 @@ class Evolution
   def run
     while true
       puts 'Input a string up to 30 characters long:'
-      @target_species = gets.chomp.to_s.downcase
+      @target_species = gets.chomp.to_s.downcase.strip
 
       return if EXIT_STRINGS.include?(@string)
 
