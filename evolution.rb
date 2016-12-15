@@ -1,6 +1,6 @@
 class Evolution
-  MAX_STRING_LENGTH = 30
-  MAX_GENERATIONS = 100
+  MAX_STRING_LENGTH = 50
+  MAX_GENERATIONS = 10_000
   EXIT_STRINGS = ['quit', 'exit']
   ALLOWED_CHARACTERS = ('a'..'z').to_a + [' ']
 
